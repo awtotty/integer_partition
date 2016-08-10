@@ -27,6 +27,7 @@ def _generate_coin_series(coin_value, size):
         res[i] = 1 if (i in index_list) else 0
     return res
 
+
 # Create a list of all series representations for coin values,
 # then find their product. Return the coefficient of the x^n term.
 
